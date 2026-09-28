@@ -26,7 +26,7 @@ public:
 
 
 int main(void){
-    std::vector nums = std::vector<int>({1,3,5,6});
+    std::vector<int> nums = std::vector<int>({1,3,5,6});
     Solution s;
     std::cout << s.searchInsert(nums, 0) << std::endl;
     return 0;
